@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxJSON\src\ofxJSONElement.cpp">
+      <Filter>addons\ofxJSON\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxJSON\libs\jsoncpp\src\jsoncpp.cpp">
+      <Filter>addons\ofxJSON\libs\jsoncpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\countryFetcher.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{E0294AD5--886-F-47-DF-A-B27-5772EDB60CE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON">
+      <UniqueIdentifier>{42A1F670--6B7-B-49-43-8-5E7-E79B30831971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON\src">
+      <UniqueIdentifier>{AD8A116B--CD0-8-49-CA-9-9B7-F40460BAFD29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON\libs">
+      <UniqueIdentifier>{05EDB315--076-2-47-93-A-A3A-F96D35F3DA9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON\libs\jsoncpp">
+      <UniqueIdentifier>{E7857B12--633-5-41-D2-9-990-25BB3611CF23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON\libs\jsoncpp\include">
+      <UniqueIdentifier>{A786335E--CD4-8-45-39-8-521-0AEE5D9EBCCA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON\libs\jsoncpp\include\json">
+      <UniqueIdentifier>{D58E0241--498-9-4E-9C-9-A55-B26F4E63B126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON\libs\jsoncpp\src">
+      <UniqueIdentifier>{7ED2F8AC--35E-7-4E-CD-9-179-AE36DFC5B083}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxJSON\src\ofxJSON.h">
+      <Filter>addons\ofxJSON\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxJSON\src\ofxJSONElement.h">
+      <Filter>addons\ofxJSON\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxJSON\libs\jsoncpp\include\json\json-forwards.h">
+      <Filter>addons\ofxJSON\libs\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxJSON\libs\jsoncpp\include\json\json.h">
+      <Filter>addons\ofxJSON\libs\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\countryData.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\countryFetcher.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="bin\data\verdana.ttf" />
+  </ItemGroup>
+</Project>
